@@ -42,7 +42,7 @@ class PageSegmentView: UIView {
         stack.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
 
         indicateView = UIView()
-        indicateView.backgroundColor = badgeColor
+        indicateView.backgroundColor = UIColor.red
         addSubview(indicateView)
         indicateView.translatesAutoresizingMaskIntoConstraints = false
         indicateView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true

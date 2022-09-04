@@ -69,7 +69,7 @@ extension PageHeaderView {
 
     private func addBackgroundImage() {
         headerImage = UIImageView()
-        headerImage.kf.setImage(with: URL(string: "https://p3-dy.byteimg.com/obj/2406a00005d38ce848bc6")!)
+        headerImage.image = UIImage(named: "iconProfileToutiao20x20");
         headerImage.contentMode = .scaleAspectFill
         addSubview(headerImage)
         headerImage.translatesAutoresizingMaskIntoConstraints = false
@@ -81,7 +81,7 @@ extension PageHeaderView {
 
     private func addBgContainerView() {
         bgContainerView = UIView()
-        bgContainerView.backgroundColor = themeColor
+        bgContainerView.backgroundColor = UIColor.gray
         addSubview(bgContainerView)
         bgContainerView.translatesAutoresizingMaskIntoConstraints = false
         bgContainerView.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
@@ -94,10 +94,11 @@ extension PageHeaderView {
         avatar = UIImageView()
         avatar.cornerRadius = 50
         avatar.borderWidth = 5
-        avatar.borderColor = avatarBorderColor
+        avatar.borderColor = UIColor.red
         avatar.clipsToBounds = true
         avatar.contentMode = .scaleAspectFit
-        avatar.kf.setImage(with: URL(string: "https://p3-dy.byteimg.com/aweme/100x100/20b6b00013ffd5ca44099.jpeg")!)
+        avatar.image = UIImage(named: "iconProfileToutiao20x20");
+//        avatar.kf.setImage(with: URL(string: "https://p3-dy.byteimg.com/aweme/100x100/20b6b00013ffd5ca44099.jpeg")!)
         bgContainerView.addSubview(avatar)
         avatar.translatesAutoresizingMaskIntoConstraints = false
         avatar.leftAnchor.constraint(equalTo: leftAnchor, constant: 16).isActive = true
@@ -178,7 +179,7 @@ extension PageHeaderView {
         tagStack.spacing = 4
         nickNameStack.addArrangedSubview(tagStack)
 
-        let douyinTagIcon = UIImageView(image: R.image.im_musicianVerified20x20())
+        let douyinTagIcon = UIImageView(image: UIImage(named: "im_musicianVerified20x20"))
         douyinTagIcon.widthAnchor.constraint(equalToConstant: 12).isActive = true
         douyinTagIcon.heightAnchor.constraint(equalToConstant: 12).isActive = true
 
@@ -187,7 +188,7 @@ extension PageHeaderView {
         douyInLabel.font = .systemFont(ofSize: 14)
         douyInLabel.textColor = UIColor.white
 
-        let toutiaoTagIcon = UIImageView(image: R.image.iconProfileToutiao20x20())
+        let toutiaoTagIcon =  UIImageView(image: UIImage(named: "iconProfileToutiao20x20"))
         toutiaoTagIcon.widthAnchor.constraint(equalToConstant: 12).isActive = true
         toutiaoTagIcon.heightAnchor.constraint(equalToConstant: 12).isActive = true
 

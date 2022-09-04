@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA6918C528C4895600033BB5 /* UserFollowBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6918C328C4895600033BB5 /* UserFollowBtn.swift */; };
+		DA6918C628C4895600033BB5 /* UserFollowRecommendBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6918C428C4895600033BB5 /* UserFollowRecommendBtn.swift */; };
 		DA9BB09C28C344760026E99D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BB09B28C344760026E99D /* AppDelegate.swift */; };
 		DA9BB09E28C344760026E99D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BB09D28C344760026E99D /* SceneDelegate.swift */; };
 		DA9BB0A028C344760026E99D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BB09F28C344760026E99D /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA6918C328C4895600033BB5 /* UserFollowBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFollowBtn.swift; sourceTree = "<group>"; };
+		DA6918C428C4895600033BB5 /* UserFollowRecommendBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFollowRecommendBtn.swift; sourceTree = "<group>"; };
 		DA9BB09828C344760026E99D /* ProfilePageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfilePageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9BB09B28C344760026E99D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA9BB09D28C344760026E99D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -204,6 +208,8 @@
 		DABC419E28C37BBE00FB6CFE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DA6918C328C4895600033BB5 /* UserFollowBtn.swift */,
+				DA6918C428C4895600033BB5 /* UserFollowRecommendBtn.swift */,
 				DABC41AA28C37D9C00FB6CFE /* PageContainScrollView.swift */,
 				DABC41A828C37D9C00FB6CFE /* PageHeaderView.swift */,
 				DABC41A928C37D9C00FB6CFE /* PageSegmentView.swift */,
@@ -321,7 +327,9 @@
 				DABC419128C37B1600FB6CFE /* UITableView+Ext.swift in Sources */,
 				DABC41B328C37E2D00FB6CFE /* FavoriteViewController.swift in Sources */,
 				DABC41AD28C37D9C00FB6CFE /* PageContainScrollView.swift in Sources */,
+				DA6918C528C4895600033BB5 /* UserFollowBtn.swift in Sources */,
 				DABC419528C37B1600FB6CFE /* UIWindow+Ext.swift in Sources */,
+				DA6918C628C4895600033BB5 /* UserFollowRecommendBtn.swift in Sources */,
 				DABC419228C37B1600FB6CFE /* Bundle+Ext.swift in Sources */,
 				DABC419428C37B1600FB6CFE /* UIColor+Ext.swift in Sources */,
 				DABC419A28C37B1600FB6CFE /* Tools.swift in Sources */,
